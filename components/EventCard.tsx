@@ -250,9 +250,9 @@ const EventCard = ({
         </div>
       </div>
       <div className="card__title">{title}</div>
-      <div className="card__subtitle">{description}</div>
+      <div className="card__subtitle">{description.slice(0,81)}</div>
       <div className="card__indicator">
-        <span className="card__indicator-amount">{strength}</span> / 850 /{" "}
+        <span className="card__indicator-amount">{strength}</span> / 850 |{" "}
         <span className="card__indicator-percentage">{value}% filled</span>
       </div>
       <div className="card__progress">

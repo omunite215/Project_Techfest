@@ -3,7 +3,7 @@ import { ButtonProps } from "@/types";
 
 const MainButton = ({ text }: ButtonProps) => {
   return (
-    <div className="btn-conteiner mt-2">
+    <div className="btn-conteiner mt-8">
       <a className="btn-content" href="#">
         <span className="btn-title">{text}</span>
         <span className="icon-arrow">

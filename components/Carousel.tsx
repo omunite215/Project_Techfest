@@ -1,11 +1,16 @@
 "use client";
 import "@splidejs/react-splide/css/skyblue";
+import { useState } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import Image from "next/image";
 
 const Carousel = () => {
-  const imageClassName = "w-[500px] h-[350px] object-contain";
+  const imageClassName = "sm:w-[500px] sm:h-[350px] w-full h-full object-contain";
+  const [photosOnScreen, setPhotosOnScreen] = useState(typeof window !== 'undefined'? window.screen.availWidth <= 768 ? 1 : 2 : 2);
+ 
+  
+ 
   return (
     <section className="w-full">
       <Splide
@@ -17,8 +22,8 @@ const Carousel = () => {
           height: "25rem",
           arrows: false,
           pagination: false,
-          perPage: 2,
-          lazyLoad: true,
+          perPage: photosOnScreen,
+          lazyLoad: false,
           autoScroll: {
             pauseOnHover: true,
             pauseOnFocus: false,
@@ -27,7 +32,6 @@ const Carousel = () => {
           },
         }}
         extensions={{ AutoScroll }}
-        className="snap-center"
         aria-label="My Favorite Images"
       >
         <SplideSlide>

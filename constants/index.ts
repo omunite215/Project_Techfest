@@ -153,7 +153,7 @@ export const eventContent = [
     description: "Experts and industry professionals conduct workshops and deliver talks on emerging technologies and trends.",
     strength: "850",
     value: "100",
-    bgColor: "#60a5fa"
+    bgColor: "#FFF176"
   },
   {
     title: "Appathon",
@@ -181,14 +181,14 @@ export const eventContent = [
     description: "A robotics competition where teams build and battle their own robots in an arena.",
     strength: "500",
     value: "59",
-    bgColor: "#60a5fa"
+    bgColor: "#FF6E40"
   },
   {
     title: "Workshops",
     description: "Experts and industry professionals conduct workshops and deliver talks on emerging technologies and trends.",
     strength: "850",
     value: "100",
-    bgColor: "#60a5fa"
+    bgColor: "#EF5350"
   },
   {
     title: "Appathon",
@@ -216,14 +216,14 @@ export const eventContent = [
     description: "A robotics competition where teams build and battle their own robots in an arena.",
     strength: "500",
     value: "59",
-    bgColor: "#60a5fa"
+    bgColor: "#BBDEFB"
   },
   {
     title: "Workshops",
     description: "Experts and industry professionals conduct workshops and deliver talks on emerging technologies and trends.",
     strength: "850",
     value: "100",
-    bgColor: "#60a5fa"
+    bgColor: "#B39DDB"
   },
   {
     title: "Appathon",
@@ -244,7 +244,7 @@ export const eventContent = [
     description: "A robotics competition where teams build and battle their own robots in an arena.",
     strength: "500",
     value: "59",
-    bgColor: "#ef4444"
+    bgColor: "#FFF176"
   },
 ]
 
