@@ -3,12 +3,6 @@ import Head from "next/head";
 import { EventCard } from "@/components";
 import { eventContent } from "@/constants";
 import Fade from "react-awesome-reveal";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "TechExtreme-Events",
-  description: "Events You Love!!",
-};
 
 const page = () => {
   return (
