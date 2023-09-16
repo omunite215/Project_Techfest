@@ -1,3 +1,4 @@
+"use client";
 import { BannerStrip, Carousel, Details, Hero, Why } from "@/components";
 
 
