@@ -2,7 +2,7 @@
 import MainButton from "./MainButton";
 import styles from "@/styles/Style";
 import Image from "next/image";
-import { Fade, Slide } from "react-awesome-reveal/dist/components/index";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const Hero = () => {
   return (

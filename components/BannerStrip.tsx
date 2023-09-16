@@ -1,5 +1,5 @@
 "use client";
-import { Fade } from "react-awesome-reveal/dist/components/index";
+import { Fade } from "react-awesome-reveal";
 import styles from "@/styles/Style";
 
 const BannerStrip = () => {
