@@ -1,7 +1,12 @@
-import React from "react";
 import MainButton from "./MainButton";
-import { EventCardProps } from "@/types";
 
+interface EventCardProps {
+  title: string;
+  description: string;
+  value: string;
+  strength: string;
+  bgColor: string;
+}
 const EventCard = ({
   title,
   description,
@@ -34,9 +39,9 @@ const EventCard = ({
               <path fill="#f85565" d="m48.13 105h31.74l-.39-4h-30.96z"></path>
               <path fill="#ffd8c9" d="m76 96a12 12 0 0 1 -24 0z"></path>
               <path
-                stroke-width="14"
-                stroke-linejoin="round"
-                stroke-linecap="round"
+                strokeWidth="14"
+                strokeLinejoin="round"
+                strokeLinecap="round"
                 stroke="#fbc0aa"
                 fill="none"
                 d="m64 83v12"
@@ -47,9 +52,9 @@ const EventCard = ({
                 d="m64 90a25 25 0 0 1 -25-25v-16.48a25 25 0 1 1 50 0v16.48a25 25 0 0 1 -25 25z"
               ></path>
               <path
-                stroke-width="5"
-                stroke-linejoin="round"
-                stroke-linecap="round"
+                strokeWidth="5"
+                strokeLinejoin="round"
+                strokeLinecap="round"
                 stroke="#fbc0aa"
                 fill="none"
                 d="m64 64.75v6.5"
@@ -72,8 +77,8 @@ const EventCard = ({
               ></path>
               <circle r="3" fill="#515570" cy="58.75" cx="76.25"></circle>
               <path
-                stroke-linejoin="round"
-                stroke-linecap="round"
+                strokeLinejoin="round"
+                strokeLinecap="round"
                 stroke="#515570"
                 fill="none"
                 d="m70.75 59.84a6.61 6.61 0 0 1 11.5-1.31"
@@ -90,21 +95,21 @@ const EventCard = ({
                 d="m72.11 51.46 5.68-.4a4.62 4.62 0 0 1 4.21 2.1l.77 1.21"
               ></path>
               <circle r="3" fill="#515570" cy="58.75" cx="51.75"></circle>
-              <g stroke-linecap="round" fill="none">
+              <g strokeLinecap="round" fill="none">
                 <path
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                   stroke="#515570"
                   d="m57.25 59.84a6.61 6.61 0 0 0 -11.5-1.31"
                 ></path>
                 <path
-                  stroke-width="2"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinejoin="round"
                   stroke="#515570"
                   opacity=".2"
                   d="m55.89 51.45-5.68-.39a4.59 4.59 0 0 0 -4.21 2.11l-.77 1.21"
                 ></path>
                 <path
-                  stroke-miterlimit="10"
+                  strokeMiterlimit="10"
                   stroke="#f85565"
                   d="m57.25 78.76a17.4 17.4 0 0 0 6.75 1.12 17.4 17.4 0 0 0 6.75-1.12"
                 ></path>
@@ -150,9 +155,9 @@ const EventCard = ({
                 d="m57 123.68a58.54 58.54 0 0 0 14 0v-25.68h-14z"
               ></path>
               <path
-                stroke-width="14"
-                stroke-linejoin="round"
-                stroke-linecap="round"
+                strokeWidth="14"
+                strokeLinejoin="round"
+                strokeLinecap="round"
                 stroke="#fbc0aa"
                 fill="none"
                 d="m64 88.75v9.75"
@@ -206,16 +211,16 @@ const EventCard = ({
                 cy="69.67"
                 cx="77.58"
               ></ellipse>
-              <g stroke-linejoin="round" stroke-linecap="round" fill="none">
-                <path stroke-width="4" stroke="#fbc0aa" d="m64 67v4"></path>
+              <g strokeLinejoin="round" strokeLinecap="round" fill="none">
+                <path strokeWidth="4" stroke="#fbc0aa" d="m64 67v4"></path>
                 <path
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="#515570"
                   opacity=".2"
                   d="m55 56h-9.25"
                 ></path>
                 <path
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="#515570"
                   opacity=".2"
                   d="m82 56h-9.25"
@@ -250,7 +255,7 @@ const EventCard = ({
         </div>
       </div>
       <div className="card__title">{title}</div>
-      <div className="card__subtitle">{description.slice(0,81)}</div>
+      <div className="card__subtitle">{description.slice(0, 81)}</div>
       <div className="card__indicator">
         <span className="card__indicator-amount">{strength}</span> / 850 |{" "}
         <span className="card__indicator-percentage">{value}% filled</span>

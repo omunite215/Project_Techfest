@@ -1,4 +1,5 @@
-import { BannerStrip, Carousel, Details, Hero } from "@/components";
+import { BannerStrip, Carousel, Details, Hero, Why } from "@/components";
+
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <BannerStrip />
         <Carousel />
         <Details />
-        <Details />
+        <Why/>
       </section>
     </main>
   );

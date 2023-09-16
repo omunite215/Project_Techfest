@@ -1,18 +1,18 @@
 "use client";
-import Fade from "react-awesome-reveal";
-import { detail } from "../constants";
+import Fade from "react-awesome-reveal"
+import { detail2 } from "../constants";
 import styles from "@/styles/Style";
 import Image from "next/image";
-
-const Details = () => (
-  <section
+const Why = () => {
+  return (
+    <section
     className={`${styles.flexCenter} flex-col ${styles.paddingX} ${styles.paddingY} my-6`}
     id="about"
   >
-    <h1 className="font-poppins font-semibold text-[50px] text-gradient">About TX23</h1>
+    <h1 className="font-poppins font-semibold text-[50px] text-gradient">Why TX23 ?</h1>
     <Fade cascade>
       <ul className="list-none flex flex-col gap-24 justify-end items-center flex-1">
-        {detail.map((nav) => (
+        {detail2.map((nav) => (
           <li
             key={nav.id}
             className={`flex ${
@@ -36,6 +36,7 @@ const Details = () => (
       </ul>
     </Fade>
   </section>
-);
+  )
+}
 
-export default Details;
+export default Why

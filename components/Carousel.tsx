@@ -6,11 +6,14 @@ import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import Image from "next/image";
 
 const Carousel = () => {
-  const imageClassName = "sm:w-[500px] sm:h-[350px] w-full h-full object-contain";
-  const [photosOnScreen, setPhotosOnScreen] = useState(typeof window !== 'undefined'? window.screen.availWidth <= 768 ? 1 : 2 : 2);
- 
-  
- 
+  const imageClassName = "w-full h-full object-contain";
+  const [photosOnScreen, setPhotosOnScreen] = useState(
+    typeof window !== "undefined"
+      ? window.screen.availWidth <= 768
+        ? 1
+        : 2
+      : 2
+  );
   return (
     <section className="w-full">
       <Splide
@@ -41,6 +44,7 @@ const Carousel = () => {
             height={500}
             alt="Image 1"
             className={imageClassName}
+            loading="lazy"
           />
         </SplideSlide>
         <SplideSlide>
@@ -50,6 +54,7 @@ const Carousel = () => {
             height={500}
             alt="Image 2"
             className={imageClassName}
+            loading="lazy"
           />
         </SplideSlide>
         <SplideSlide>
@@ -59,6 +64,7 @@ const Carousel = () => {
             height={500}
             alt="Image 3"
             className={imageClassName}
+            loading="lazy"
           />
         </SplideSlide>
         <SplideSlide>
@@ -68,6 +74,7 @@ const Carousel = () => {
             height={500}
             alt="Image 3"
             className={imageClassName}
+            loading="lazy"
           />
         </SplideSlide>
         <SplideSlide>
@@ -77,6 +84,7 @@ const Carousel = () => {
             height={500}
             alt="Image 3"
             className={imageClassName}
+            loading="lazy"
           />
         </SplideSlide>
         <SplideSlide>
@@ -86,6 +94,7 @@ const Carousel = () => {
             height={500}
             alt="Image 3"
             className={imageClassName}
+            loading="lazy"
           />
         </SplideSlide>
         <SplideSlide>
@@ -95,6 +104,7 @@ const Carousel = () => {
             height={500}
             alt="Image 3"
             className={imageClassName}
+            loading="lazy"
           />
         </SplideSlide>
       </Splide>

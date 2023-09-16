@@ -26,6 +26,19 @@ export const detail = [
     content: "TechXtreme not only helps participants to develop their technical skills but also their personal and interpersonal skills. It provides a platform for them to showcase their inner selves, their passion, and their drive towards their goals. This helps them to gain confidence, overcome stage fear, and develop their presentation and communication skills. In summary, TechXtreme is a unique event organized by Gandhinagar University that enables young people to learn and showcase their talents and abilities. It provides a platform for them to connect with other like-minded individuals and gain exposure to emerging technologies, ultimately helping them to develop their technical and personal skills. The event encourages them to think creatively, explore new ideas, and push their boundaries."
   }
 
+];
+export const detail2 = [
+  {
+    id: "detail-1",
+    img: "/About/teamwork.jpg",
+    content: "Teamwork is the cornerstone of success in almost every facet of life, be it in the workplace, sports, or any collaborative endeavor. It is the art of individuals coming together, pooling their diverse talents, and working cohesively toward a common goal. In a well-functioning team, each member contributes their unique skills and perspectives, creating a synergy that surpasses what any one individual could achieve alone. Effective teamwork fosters trust, communication, and a sense of unity, enabling teams to overcome challenges and achieve remarkable outcomes. It's about recognizing that the sum is often greater than its parts, and that together, we can tackle even the most complex tasks and accomplish what may seem insurmountable when faced individually."
+  },
+  {
+    id: "detail-2",
+    img: "/About/learning.jpg",
+    content: "Learning new things is a transformative journey that fuels personal growth and expands the boundaries of one's knowledge and capabilities. It is an exhilarating process where curiosity serves as the compass, guiding us through uncharted territories of information and skills. Embracing the unknown with an open mind and a willingness to adapt enables us to break free from our comfort zones, fostering resilience and adaptability. Whether it's acquiring a new language, mastering a musical instrument, or delving into a new field of study, the act of learning anew not only broadens our horizons but also enriches our lives with the joy of discovery and the satisfaction of progress. It's a lifelong adventure that keeps the mind agile and the spirit invigorated."
+  }
+
 ]
 
 
@@ -111,140 +124,63 @@ export const eventContent = [
     description: "A robotics competition where teams build and battle their own robots in an arena.",
     strength: "500",
     value: "59",
-    bgColor: "#a21caf"
+    bgColor: "#FF8A65"
   },
   {
     title: "Lecture Series",
-    description: "Renowned speakers and experts deliver talks and presentations on various technological topics.",
+    description: "Renowned speakers and experts deliver talks and presentations on technologies.",
     strength: "650",
     value: "76",
-    bgColor: "#059669"
+    bgColor: "#FFB74D"
   },
   {
     title: "Startup Expo",
-    description: "A platform for startups to showcase their innovative ideas and products to potential investors and industry professionals.",
+    description: "A platform for startups to showcase their fresh ideas & products to investors.",
     strength: "600",
     value: "71",
-    bgColor: "#FB8C00"
+    bgColor: "#FFD54F"
   },
   {
     title: "Hackathon",
-    description: "A coding competition where participants work on problems and develop software solutions within a specified time frame.",
+    description: "A coding competition where participants solve problems within a specified time.",
     strength: "850",
     value: "100",
-    bgColor: "#db2777"
+    bgColor: "#FFF176"
   },
   {
-    title: "Bridge Design Challenge",
-    description: "Participants design and build bridges using specific materials to test their strength and load-bearing capacity.",
+    title: "Bridge Design",
+    description: "Participants build bridges using materials to test their load-bearing capacity.",
     strength: "550",
     value: "65",
-    bgColor: "#9FA8DA"
+    bgColor: "#DCE775"
   },
   {
     title: "CodeQuest",
-    description: "A coding competition that challenges participants' programming skills and problem-solving abilities.",
+    description: "A brainstorm that challenges programming skills & problem-solving abilities.",
     strength: "782",
     value: "92",
-    bgColor: "#06b6d4"
+    bgColor: "#AED581"
   },
   {
     title: "Workshops",
-    description: "Experts and industry professionals conduct workshops and deliver talks on emerging technologies and trends.",
+    description: "Industry Professionals conduct workshops and deliver talks on new technologies.",
     strength: "850",
     value: "100",
-    bgColor: "#FFF176"
+    bgColor: "#81C784"
   },
   {
     title: "Appathon",
-    description: "A mobile app development contest where participants create innovative and functional applications.",
+    description: "An app development contest where participants create innovative applications.",
     strength: "680",
     value: "80",
-    bgColor: "#fb923c"
+    bgColor: "#64B5F6"
   },
   {
     title: "Tech Talks",
-    description: "Esteemed speakers and entrepreneurs deliver talks on technology, innovation, and entrepreneurship.",
+    description: "Esteemed speakers and entrepreneurs deliver talks on Tech Industry.",
     strength: "650",
     value: "76",
-    bgColor: "#76FF03"
-  },
-  {
-    title: "Robowars",
-    description: "A robotics competition where teams build and battle their own robots in an arena.",
-    strength: "500",
-    value: "59",
-    bgColor: "#ef4444"
-  },
-  {
-    title: "Robowars",
-    description: "A robotics competition where teams build and battle their own robots in an arena.",
-    strength: "500",
-    value: "59",
-    bgColor: "#FF6E40"
-  },
-  {
-    title: "Workshops",
-    description: "Experts and industry professionals conduct workshops and deliver talks on emerging technologies and trends.",
-    strength: "850",
-    value: "100",
-    bgColor: "#EF5350"
-  },
-  {
-    title: "Appathon",
-    description: "A mobile app development contest where participants create innovative and functional applications.",
-    strength: "680",
-    value: "80",
-    bgColor: "#fb923c"
-  },
-  {
-    title: "Tech Talks",
-    description: "Esteemed speakers and entrepreneurs deliver talks on technology, innovation, and entrepreneurship.",
-    strength: "650",
-    value: "76",
-    bgColor: "#76FF03"
-  },
-  {
-    title: "Robowars",
-    description: "A robotics competition where teams build and battle their own robots in an arena.",
-    strength: "500",
-    value: "59",
-    bgColor: "#ef4444"
-  },
-  {
-    title: "Robowars",
-    description: "A robotics competition where teams build and battle their own robots in an arena.",
-    strength: "500",
-    value: "59",
-    bgColor: "#BBDEFB"
-  },
-  {
-    title: "Workshops",
-    description: "Experts and industry professionals conduct workshops and deliver talks on emerging technologies and trends.",
-    strength: "850",
-    value: "100",
-    bgColor: "#B39DDB"
-  },
-  {
-    title: "Appathon",
-    description: "A mobile app development contest where participants create innovative and functional applications.",
-    strength: "680",
-    value: "80",
-    bgColor: "#fb923c"
-  },
-  {
-    title: "Tech Talks",
-    description: "Esteemed speakers and entrepreneurs deliver talks on technology, innovation, and entrepreneurship.",
-    strength: "650",
-    value: "76",
-    bgColor: "#76FF03"
-  },
-  {
-    title: "Robowars",
-    description: "A robotics competition where teams build and battle their own robots in an arena.",
-    strength: "500",
-    value: "59",
-    bgColor: "#FFF176"
+    bgColor: "#F06292"
   },
 ]
 

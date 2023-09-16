@@ -3,7 +3,7 @@ import Head from "next/head";
 import "../styles/globals.css";
 
 export const metadata = {
-  title: "TechExtreme",
+  title: "TechExtreme-Home",
   description: "Events You Love!!",
 };
 
@@ -20,7 +20,11 @@ export default function RootLayout({
       </Head>
       <body>
         <main className="w-full overflow-x-hidden bg-whiteTheme">
+          <nav className="z-50">
+
           <Navbar />
+
+          </nav>
           {children}
           <Footer />
         </main>

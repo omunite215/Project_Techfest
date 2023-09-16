@@ -1,10 +1,11 @@
-import React from "react";
-import { ButtonProps } from "@/types";
+export interface ButtonProps {
+  text: string;
+}
 
 const MainButton = ({ text }: ButtonProps) => {
   return (
     <div className="btn-conteiner mt-8">
-      <a className="btn-content" href="#">
+      <a className="btn-content" href="/events">
         <span className="btn-title">{text}</span>
         <span className="icon-arrow">
           <svg
