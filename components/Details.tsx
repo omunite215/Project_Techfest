@@ -1,5 +1,5 @@
 "use client";
-import Fade from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal/dist/components/index";
 import { detail } from "../constants";
 import styles from "@/styles/Style";
 import Image from "next/image";

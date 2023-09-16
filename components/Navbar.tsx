@@ -4,7 +4,7 @@ import Image from "next/image";
 import { navLinks } from "@/constants";
 import styles from "@/styles/Style";
 import Link from "next/link";
-import { Fade } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal/dist/components/index";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
