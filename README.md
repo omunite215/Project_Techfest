@@ -1,29 +1,50 @@
-# College Techfest Website Template
+# A College Techfest Website Template made using Next.JS, Tailwind and React-Awesome-Reveal
 
 ![Screenshot 2023-06-26 155418](https://github.com/omunite215/Techfest/assets/78680563/90787645-abaf-4de7-9dfd-9354d4903313)
 
 
+## ⏰ Major Updates made on 17/09/2023:
+- Migrated from JavaScript to TypeScript.
+- Updated All the packages.
+- MaterialUI Colors.
+- Changes in Card Colors.
+- Optimized Code.
+- Lazy Loading Images.
+- Added Fluid Animations.
+
 This is a College Techfest Website project using Next.Js
 
-A website which made using Next.JS, Splider.JS, TailwindCSS, and TypeScript resulting in a stunning techfest website website.
+A website which made using Next.JS, Splider.JS, TailwindCSS, React-Awesome-Reveal and TypeScript resulting in a stunning techfest website website.
 
-This Project is hosted in Netlify : [Techfest](https://techfest-eta.vercel.app/)
+### Link to Figma File which has its basic layout:
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <a href="https://www.figma.com/file/ZBRD2fylJVmuAXeCOBGulN/Techfest?type=design&node-id=0%3A1&mode=design&t=ebUjFw0GAwWHEnOZ-1">
+      <img src="https://skillicons.dev/icons?i=figma" />
+    </a>
+  </a>
+</p>
+
+A website which is a product page of a Bank displaying its products features, clients , feedbacks and many more.
+
+### The project is hosted on Vercel : [Techfest](https://techfest-eta.vercel.app/)
+
+## :star: Give A Star
+
+You can also give this repository a star to show more people and they can use this repository.
 
 # Getting Started
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
 Before you start, make sure you have the following software installed on your computer:
 
-Node.js
-npm (Node Package Manager)
+[![My Skills](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev)
 
 
-## 🛠 Skills
-Javascript, HTML, CSS, Next.JS, Typescript, Splider.JS and Tailwind.
-
-
-## How to use this Repository?
+## ℹ️ How to use this Repository?
 
 1. Clone the repository to your local machine
 
@@ -48,65 +69,62 @@ Javascript, HTML, CSS, Next.JS, Typescript, Splider.JS and Tailwind.
 
 The website should now be up and running on http://localhost:3000.
 
-## Built With:
+## 🏠 Built With:
 
-- Next.JS - A JavaScript library based on React for building Full stack Web Apps.
-- TypeScript - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
-- Splider - Splide is a lightweight, flexible and accessible slider/carousel written in TypeScript. No dependencies, no Lighthouse errors.
-- Tailwind - A Modern CSS framework
-- HTML - Standard markup language for creating web pages
-- CSS - Style sheet language used for describing the look and formatting of a document written in HTML.
+[![My Skills](https://skillicons.dev/icons?i=next,tailwind,vercel)](https://skillicons.dev)
 
-## Features
+## 🛠 Skills
 
-- Modern UI/UX.
-- Typescript.
-- Smooth animations.
-- Lazy Image Loading.
-- Optimized.
-- Responsive.
-
-
-## Tech Stack
-
-**Client:** Next.JS, React, Tailwind, Splider.JS.
-
-**Server:** Netlify
-
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,next)](https://skillicons.dev)
 
 ## 🚀 About Me
-Front - End Web Development Enthusiast
 Specializations:
 - UI/UX Design.
-- Front-End Web Development
+- Web Development
 
+## 🙋‍♂️ Connect With Me
 
-## Other Common Github Profile Sections
+<p align="left">
+  <a href="https://skillicons.dev">
+    <a href="https://github.com/omunite215">
+      <img src="https://skillicons.dev/icons?i=github" />
+    </a>
+  </a>
+   <a href="https://skillicons.dev">
+    <a href="https://www.linkedin.com/in/om-patel-401068143/">
+      <img src="https://skillicons.dev/icons?i=linkedin" />
+    </a>
+  </a>
+  <a href="https://skillicons.dev">
+    <a href="https://www.instagram.com/_21omp/">
+      <img src="https://skillicons.dev/icons?i=instagram" />
+    </a>
+  </a>
+   <a href="https://skillicons.dev">
+    <a href="https://portfoliobyom.netlify.app/">
+      <img src="https://skillicons.dev/icons?i=devto" />
+    </a>
+  </a>
+</p>
 
-👯‍♀️ I'm looking to collaborate on Front-End Web Dev Projects on React.JS
+## 🗒️ Authors
+- Om Patel
 
-
-
-
-## Feedback
-
-If you have any feedback, please reach out to me at omunite21@gmail.com
-
-
-## Authors
-
-- [@Om Patel](https://github.com/omunite215)
-
+<p align="left">
+  <a href="https://skillicons.dev">
+    <a href="https://github.com/omunite215">
+      <img src="https://skillicons.dev/icons?i=github" />
+    </a>
+  </a>
+</p>
 
 ## Acknowledgements
-
- - [Tailwind Docs](https://tailwindcss.com/docs/installation)
- - [Framer-Motion docs](https://www.framer.com/motion/)
- - [Next Docs](https://nextjs.org/docs)
-
+- [TypeScript Docs](https://www.typescriptlang.org/)
+- [Tailwind Docs](https://tailwindcss.com/docs/installation)
+- [React Docs](https://react.dev/)
+- [React-Awesome-Reveal Docs](https://react-awesome-reveal.morello.dev/docs/getting-started)
 
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/78680563?v=4" alt="Om's Logo Image"/>
+  <img src="https://github.com/omunite215/Techfest/assets/78680563/88fad0c7-b41e-442f-b9c6-2dd467200593" alt="Om's Logo Image"/>
 </p>
-
